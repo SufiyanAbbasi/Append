@@ -1,0 +1,42 @@
+.allcontainer {
+    background-color: #F9F9F9;
+
+    .bothdiv {
+        .leftdiv {
+            .firstbtn {
+                background-color: #F8EFEF;
+                border: none;
+            }
+            .secbtn{
+                letter-spacing: 1px;
+            }
+            h2{
+                letter-spacing: 1px;
+            }
+        }
+        .rightdiv{
+            .shadow{
+                box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+                &:hover {
+        
+                    .circle {
+                        background-color: red; // Change circle background color on hover
+        
+                        .icon {
+                            color: white; // Change icon color on hover
+                        }
+                    }
+                }
+                .circle{
+                    width: 80px; 
+                    height: 80px;
+                    background-color: #F8EFEF;
+                    .icon{
+                     color: red;
+                    }
+                }
+            }
+        }
+    }
+
+}

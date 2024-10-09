@@ -1,0 +1,18 @@
+.container{
+//  max-width: 100%;
+ overflow-x: hidden;
+}
+img{
+    width:86px;
+    height: 36px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    cursor: pointer;
+    flex-wrap: wrap;
+
+    &:hover {
+        filter: grayscale(0%);
+        opacity: 1;
+      }
+
+}
